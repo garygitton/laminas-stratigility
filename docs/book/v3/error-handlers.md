@@ -22,7 +22,7 @@ message indicating the request method and URI used:
 // setup layers
 $app->pipe(/* ... */);
 $app->pipe(/* ... */);
-$app->pipe(new NotFoundHandler(new Response());
+$app->pipe(new NotFoundHandler(new Response()));
 
 // execute application
 ```
