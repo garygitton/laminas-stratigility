@@ -120,7 +120,7 @@ $app->pipe(/* ... */);
 $app->pipe(/* ... */);
 
 // setup 404 handling
-$app->pipe(new NotFoundHandler(new Response());
+$app->pipe(new NotFoundHandler(new Response()));
 
 // execute application
 ```
